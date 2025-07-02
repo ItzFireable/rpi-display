@@ -1,6 +1,13 @@
 {
   "dependencies": {
-    "johnny-five": "^2.1.0",
+    "console-log-colors": "^0.5.0",
+    "johnny-five": "^2.1.0"
+  },
+  "optionalDependencies": {
     "raspi-io": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "tsx": "^4.20.3"
   }
 }
