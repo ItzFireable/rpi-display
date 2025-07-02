@@ -21,6 +21,7 @@ module.exports = {
         try {
             RaspiIO = require("raspi-io").RaspiIO;
         } catch (ex) {
+            console.log(ex);
             return "Not running on RPI";
         }
 
